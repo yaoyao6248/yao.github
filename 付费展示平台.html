@@ -1,0 +1,1309 @@
+<!DOCTYPE html>
+<!-- saved from url=(0047)https://e.hicloud.com/appserver/html/index.html -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>付费展示平台</title>
+    <link rel="shortcut icon" href="https://e.hicloud.com/appserver/images/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" type="text/css" href="./付费展示平台_files/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="./付费展示平台_files/swiper.min.css">
+    <!-- link元素中的CSS媒体查询 -->
+    <link rel="stylesheet" type="text/css" media="(min-width: 992px)" href="./付费展示平台_files/reset_pc.css">
+    <link rel="stylesheet" type="text/css" media="(min-width: 992px)" href="./付费展示平台_files/style_pc.css">
+    <link rel="stylesheet" media="(max-width: 991px)" href="./付费展示平台_files/qjsxq.css">
+    <link rel="stylesheet" media="(min-width: 768px) and (max-width: 991px)" href="./付费展示平台_files/style_pad.css">
+    <link rel="stylesheet" media="(max-width: 768px)" href="./付费展示平台_files/style_phone.css">
+    <style>
+    	.visible-lg,.visible-md,.visible-sm,.visible-xs {
+    		display: none!important
+		}
+ 
+		@media (max-width: 767px) {
+    		.visible-xs {
+        		display:block!important
+    		}
+		}
+
+		@media (min-width: 768px) and (max-width:991px) {
+    		.visible-sm {
+        		display:block!important
+    		}
+		}
+
+		@media (min-width: 992px) and (max-width:1199px) {
+    		.visible-md {
+        		display:block!important
+    		}
+		}
+
+
+		@media (min-width: 1200px) {
+   			 .visible-lg {
+       			 display:block!important
+    	}
+	
+    </style>
+    <script type="text/javascript" src="./付费展示平台_files/jquery-1.12.4.min.js.下载"></script>
+    <script async="" type="text/javascript" charset="UTF-8">
+        // 初始加载留白，勿动！
+        !function () {
+            var src = "../images/index/firstScreenBanner.png";
+            if ($(window).width() < 992) {
+                src = "../images/index/bannerBG.png";
+            }
+            var bannerBG = new Image();
+            bannerBG.src = src;
+            bannerBG.onload = function () {
+                $(".bannerContent").not(":hidden").css("min-height", '0');
+            };
+        }();
+    </script>
+</head>
+
+<body>
+    <!--PC-->
+    <div class="banner visible-lg visible-md" id="banner">
+        <div class="navgation" id="navgation" style="position: fixed; top: 0px; left: 0px; background: rgba(0, 0, 0, 0.8);">
+            <div class="container">
+                <div class="row clearfix">
+                    <div class="col-md-4 float-right clearfix">
+                        <div class="logo float-left">
+                            <a href="javascript:;">
+                                <img src="./付费展示平台_files/loginPPS.png" alt="">
+                            </a>
+                        </div>
+                        <p class="logo_p float-left">付费展示平台</p>
+                    </div>
+                    <div class="col-md-8 float-right clearfix">
+                        <ul class="nav float-left clearfix" id="navLis">
+                            <li>
+                                <a href="https://e.hicloud.com/appserver/html/index.html#bannerContent" id="nav_bannerContent" class="">首页</a>
+                            </li>
+                            <li>
+                                <a href="https://e.hicloud.com/appserver/html/index.html#openScreen" id="nav_openScreen" class="">资源介绍</a>
+                            </li>
+                            <li>
+                                <a href="https://e.hicloud.com/appserver/html/index.html#case" id="nav_case" class="nav-active">优秀案例</a>
+                            </li>
+                            <li>
+                                <a href="https://e.hicloud.com/appserver/html/index.html#problem" id="nav_problem" class="">常见问题</a>
+                            </li>
+                            <li>
+                                <a href="https://e.hicloud.com/appserver/html/index.html#Cooperation" id="nav_Cooperation" class="">推广合作</a>
+                            </li>
+                        </ul>
+                        <div class="login float-right">
+                            <a href="https://e.hicloud.com/appserver/account/login" class="login-active">登录平台</a>
+                            <a href="https://e.hicloud.com/appserver/account/register" class="login-regsiter">注册</a>
+                        </div>
+                        <ol class="navols" id="navols">
+                            <li>
+                                <a href="https://e.hicloud.com/appserver/html/index.html#bannerContent" id="ols_bannerContent" class="">
+                                    <span></span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://e.hicloud.com/appserver/html/index.html#openScreen" id="ols_openScreen" class="">
+                                    <span></span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://e.hicloud.com/appserver/html/index.html#case" id="ols_case" class="nav-active">
+                                    <span></span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://e.hicloud.com/appserver/html/index.html#problem" id="ols_problem" class="">
+                                    <span></span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://e.hicloud.com/appserver/html/index.html#Cooperation" id="ols_Cooperation" class="">
+                                    <span></span>
+                                </a>
+                            </li>
+                        </ol>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="banner-content" id="bannerContent">
+            <ul id="Carousel" class="clearfix">
+                <li class="float-left">
+                    <img class="banner-img" src="./付费展示平台_files/firstScreenBanner.png" alt="">
+                </li>
+            </ul>
+            <div class="text-p" id="text_p" style="top: 57%; opacity: 1;">
+                <p>
+                    <img src="./付费展示平台_files/pagetext.png">
+                </p>
+                <a href="https://e.hicloud.com/appserver/account/register" id="textBtn">快速注册</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="openScreen visible-lg visible-md" id="openScreen">
+        <div class="bg-img">
+            <img src="./付费展示平台_files/1_02.png" alt="">
+            <div class="phone-img">
+                <img class="bgImg1" id="bgImg1" src="./付费展示平台_files/leftShadow.png" alt="" style="animation: toOpacity 1.5s ease 0s 1 normal none running; opacity: 1;">
+                <img class="bgImg2" id="bgImg2" src="./付费展示平台_files/bottomShadow_01.png" alt="" style="animation: toOpacity 1.5s ease 0s 1 normal none running; opacity: 1;">
+                <img class="phoneImg1" id="phoneImg1" src="./付费展示平台_files/openScreen.png" alt="" style="top: -0.95rem; left: 0.82rem; animation: openScreenBoxShow 1.5s ease 0s 1 normal none running;">
+            </div>
+        </div>
+        <dl class="text">
+            <dt>
+                <span></span>开屏展示</dt>
+            <dd>
+                <img src="./付费展示平台_files/openIcon_01.png" alt="">精准定向</dd>
+            <dd>
+                <img src="./付费展示平台_files/openIcon_02.png" alt="">动、静态全屏展示</dd>
+            <dd>
+                <img src="./付费展示平台_files/openIcon_03.png" alt="">精致传播品牌知名度</dd>
+            <dd>
+                <img src="./付费展示平台_files/openIcon_04.png" alt="">覆盖音乐、视频活跃用户</dd>
+            <dd class="last-dd">
+                <a href="https://e.hicloud.com/appserver/account/register">快速注册</a>
+            </dd>
+        </dl>
+    </div>
+
+    <div class="magazine visible-lg visible-md" id="magazine">
+        <div class="bg-img">
+            <img src="./付费展示平台_files/BG_03.png" alt="">
+            <div class="phone-img">
+                <img id="phoneImg2" src="./付费展示平台_files/magazine.png" alt="">
+                <img id="magazineImg" src="./付费展示平台_files/lockScreen.png" alt="" style="animation: imgMoveTop 1.5s ease 0s 1 normal none running; transform: translateY(0%);">
+            </div>
+        </div>
+        <dl class="text">
+            <dt>
+                <span></span>杂志锁屏</dt>
+            <dd>
+                <img src="./付费展示平台_files/magazineIcon_01.png" alt="">超1亿日活跃用户</dd>
+            <dd>
+                <img src="./付费展示平台_files/magazineIcon_02.png" alt="">单日曝光次数超50亿次</dd>
+            <dd>
+                <img src="./付费展示平台_files/magazineIcon_03.png" alt="">抢占终端第一层入口</dd>
+            <dd>
+                <img src="./付费展示平台_files/magazineIcon_04.png" alt="">品质提升品牌影响力</dd>
+            <dd class="last-dd">
+                <a href="https://e.hicloud.com/appserver/account/register">快速注册</a>
+            </dd>
+        </dl>
+    </div>
+
+    <div class="information visible-lg visible-md" id="information">
+        <div class="bg-img">
+            <img src="./付费展示平台_files/BG_06.png" alt="">
+            <div class="phone-img">
+                <div class="mask" id="informationMask" style="animation: toOpacity 1s ease 0s 1 normal none running; opacity: 1;"></div>
+                <img class="informationBg" src="./付费展示平台_files/information.png" alt="">
+                <div id="informationTop" class="informationTop" style="animation: informationBoxShow 1.5s ease 0s 1 normal none running; top: 1.3rem; left: 0.8rem; width: 100%;">
+                    <img id="informationTopBg" class="informationTopBg" src="./付费展示平台_files/smart_03.png" alt="">
+                    <img id="informationTopBgImg1" class="informationTopBgImg1" src="./付费展示平台_files/rightShadow.png" alt="" style="animation: toOpacity 1s ease 0s 1 normal none running; opacity: 1;">
+                    <img id="informationTopBgImg2" class="informationTopBgImg2" src="./付费展示平台_files/bottomShadow_02.png" alt="" style="animation: toOpacity 1s ease 0s 1 normal none running; opacity: 1;">
+                </div>
+            </div>
+        </div>
+        <dl class="text">
+            <dt>
+                <span></span>信息流</dt>
+            <dd>
+                <img src="./付费展示平台_files/informationIcon_01.png" alt="">多场景，丰富原生呈现</dd>
+            <dd>
+                <img src="./付费展示平台_files/informationIcon_02.png" alt="">智能推荐，提升转化</dd>
+            <dd class="last-dd">
+                <a href="https://e.hicloud.com/appserver/account/register">快速注册</a>
+            </dd>
+        </dl>
+    </div>
+
+    <div class="jiaodian visible-lg visible-md" id="jiaodian">
+        <div class="bg-img">
+            <img src="./付费展示平台_files/jiaodian-pcBG.png" alt="">
+            <div class="phone-img myPadCarousel swiper-container-horizontal">
+                <div class="img-box clearfix swiper-wrapper" id="imgBox" style="transform: translate3d(-768px, 0px, 0px); transition-duration: 0ms;"><img class="swiper-slide float-right swiper-slide-duplicate" src="./付费展示平台_files/jiaodian-pc2.png" alt="" data-swiper-slide-index="1" style="width: 256px;">
+                    <img class="swiper-slide float-left" src="./付费展示平台_files/jiaodian-pc1.png" alt="" data-swiper-slide-index="0" style="width: 256px;">
+                    <img class="swiper-slide float-right swiper-slide-prev" src="./付费展示平台_files/jiaodian-pc2.png" alt="" data-swiper-slide-index="1" style="width: 256px;">
+                <img class="swiper-slide float-left swiper-slide-duplicate swiper-slide-active" src="./付费展示平台_files/jiaodian-pc1.png" alt="" data-swiper-slide-index="0" style="width: 256px;"></div>
+            </div>
+        </div>
+        <dl class="text">
+            <dt>
+                <span></span>焦点图/banner位</dt>
+            <dd>
+                <img src="./付费展示平台_files/jiaodian1.png" alt="">
+                <span>覆盖华为音乐、视频活跃用户</span>
+            </dd>
+            <dd>
+                <img src="./付费展示平台_files/jiaodian2.png" alt="">
+                <span>App首页、频道页、播放页全方位覆盖</span>
+            </dd>
+            <dd>
+                <img src="./付费展示平台_files/jiaodian3.png" alt="">
+                <span>多种展现规格</span>
+            </dd>
+            <dd>
+                <img src="./付费展示平台_files/jiaodian4.png" alt="">
+                <span>动静态创意展示</span>
+            </dd>
+            <dd class="last-dd">
+                <a href="https://e.hicloud.com/appserver/account/register">快速注册</a>
+            </dd>
+        </dl>
+    </div>
+
+    <div class="folder visible-lg visible-md" id="folder">
+        <div class="bg-img">
+            <img src="./付费展示平台_files/yunBG-pc.png" alt="">
+        </div>
+        <dl class="text">
+            <dt>
+                <span></span>云文件夹</dt>
+            <dd>
+                <img src="./付费展示平台_files/floderIcon_01.png" alt="">极速桌面分发入口</dd>
+            <dd>
+                <img src="./付费展示平台_files/floderIcon_02.png" alt="">智慧推荐，动态调整</dd>
+            <dd>
+                <img src="./付费展示平台_files/floderIcon_03.png" alt="">全球用户可见</dd>
+            <dd class="last-dd">
+                <a href="https://e.hicloud.com/appserver/account/register">快速注册</a>
+            </dd>
+        </dl>
+    </div>
+
+    <div class="case visible-lg visible-md" id="case">
+        <div class="container">
+            <div class="caseH2">优秀案例</div>
+            <div class="row case-content">
+                <ul class="case-box clearfix" id="case_box" style="left: 0px;">
+                    <li class="row float-left">
+                        <div class="col-xl-3">
+                            <a href="javascript:;">
+                                <img class="case-img1" id="caseImg1" src="./付费展示平台_files/case_1.jpg" alt="">
+                            </a>
+                        </div>
+                        <div class="col-xl-3">
+                            <a href="javascript:;">
+                                <img class="case-img2" id="caseImg2" src="./付费展示平台_files/case_2.jpg" alt="">
+                            </a>
+                        </div>
+                        <div class="col-xl-3">
+                            <a href="javascript:;">
+                                <img class="case-img3" id="caseImg3" src="./付费展示平台_files/case_3.jpg" alt="">
+                            </a>
+                        </div>
+                        <div class="col-xl-3">
+                            <a href="javascript:;">
+                                <img class="case-img4" id="caseImg4" src="./付费展示平台_files/case_4.jpg" alt="">
+                            </a>
+                        </div>
+                    </li>
+                    <li class="row float-left">
+                        <div class="col-xl-3">
+                            <a href="javascript:;">
+                                <img class="case-img1" id="caseImg5" src="./付费展示平台_files/case_5.jpg" alt="">
+                            </a>
+                        </div>
+                        <div class="col-xl-3">
+                            <a href="javascript:;">
+                                <img class="case-img2" id="caseImg6" src="./付费展示平台_files/case_6.jpg" alt="">
+                            </a>
+                        </div>
+                        <div class="col-xl-3">
+                            <a href="javascript:;">
+                                <img class="case-img3" id="caseImg7" src="./付费展示平台_files/case_7.jpg" alt="">
+                            </a>
+                        </div>
+                        <div class="col-xl-3">
+                            <a href="javascript:;">
+                                <img class="case-img4" id="caseImg8" src="./付费展示平台_files/case_8.jpg" alt="">
+                            </a>
+                        </div>
+                    </li>
+                    <li class="row float-left">
+                        <div class="col-xl-3">
+                            <a href="javascript:;">
+                                <img class="case-img1" id="caseImg9" src="./付费展示平台_files/case_9.jpg" alt="">
+                            </a>
+                        </div>
+                        <div class="col-xl-3">
+                            <a href="javascript:;">
+                                <img class="case-img2" id="caseImg10" src="./付费展示平台_files/case_10.jpg" alt="">
+                            </a>
+                        </div>
+                        <div class="col-xl-3">
+                            <a href="javascript:;">
+                                <img class="case-img3" id="caseImg11" src="./付费展示平台_files/case_11.jpg" alt="">
+                            </a>
+                        </div>
+                        <div class="col-xl-3">
+                            <a href="javascript:;">
+                                <img class="case-img4" id="caseImg12" src="./付费展示平台_files/case_12.jpg" alt="">
+                            </a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <a id="case_left" class="" href="javascript:;">
+                <i></i>
+                <s></s>
+            </a>
+            <a id="case_right" class="" href="javascript:;">
+                <i></i>
+                <s></s>
+            </a>
+        </div>
+    </div>
+
+    <div class="partners visible-lg visible-md" id="partners">
+        <div class="container">
+            <div class="partnersH2">合作伙伴</div>
+            <div class="row partners-content">
+                <div class="col-md-3">
+                    <div>
+                        <img src="./付费展示平台_files/MT.png" alt="">
+                    </div>
+                    <div>
+                        <img src="./付费展示平台_files/Vip.png" alt="">
+                    </div>
+                    <div>
+                        <img src="./付费展示平台_files/TM.png" alt="">
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div>
+                        <img src="./付费展示平台_files/where.png" alt="">
+                    </div>
+                    <div>
+                        <img src="./付费展示平台_files/UA.png" alt="">
+                    </div>
+                    <div>
+                        <img src="./付费展示平台_files/BMW.png" alt="">
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div>
+                        <img src="./付费展示平台_files/XC.png" alt="">
+                    </div>
+                    <div>
+                        <img src="./付费展示平台_files/KFC.png" alt="">
+                    </div>
+                    <div>
+                        <img src="./付费展示平台_files/DD.png" alt="">
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div>
+                        <img src="./付费展示平台_files/Alibaba.png" alt="">
+                    </div>
+                    <div>
+                        <img src="./付费展示平台_files/weibo.png" alt="">
+                    </div>
+                    <div>
+                        <img src="./付费展示平台_files/JD.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="problem visible-lg visible-md" id="problem">
+        <div class="container">
+            <div class="problemH2">常见问题</div>
+            <div class="row problem-content">
+                <div class="col-xl-6">
+                    <ul>
+                        <li>
+                            <span></span>
+                            <dl>
+                                <dt>应用市场和开发者联盟的账号可以和PPS账号通用么？
+                                    <span></span>
+                                </dt>
+                                <dd>A：可以，不需要重新注册审核</dd>
+                            </dl>
+                        </li>
+                        <li>
+                            <span></span>
+                            <dl>
+                                <dt>是否支持个人客户投放？
+                                    <span></span>
+                                </dt>
+                                <dd>A：目前华为PPS合作范围仅支持企业客户，暂不支持个人客户投放</dd>
+                            </dl>
+                        </li>
+                        <li>
+                            <span></span>
+                            <dl>
+                                <dt>登录后显示服务器出错
+                                    <span></span>
+                                </dt>
+                                <dd>A：建议更换浏览器试试</dd>
+                            </dl>
+                        </li>
+                        <li>
+                            <span></span>
+                            <dl>
+                                <dt>开屏展示支持的媒体有哪些？收费方式？
+                                    <span></span>
+                                </dt>
+                                <dd>A：目前开屏展示支持华为音乐、华为视频、视频优酷、华为阅读、荣耀阅读5个原生APP。以CPT计费，刊例价120万元/天，具体合作请联系商务同学。</dd>
+                            </dl>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-xl-6">
+                    <ul>
+                        <li>
+                            <span></span>
+                            <dl>
+                                <dt>目前开放哪些媒体和版位？
+                                    <span></span>
+                                </dt>
+                                <dd>
+                                    A：华为PPS目前支持开屏展示、焦点图、banner位、信息流、圆图。冠名、云文件夹等版位的投放，还有更多版位即将开放，敬请期待。
+                                </dd>
+                            </dl>
+                        </li>
+                        <li>
+                            <span></span>
+                            <dl>
+                                <dt>登陆后显示无权限？
+                                    <span></span>
+                                </dt>
+                                <dd>A：可致官网下方，联系推广合作的同事，配置角色权限。</dd>
+                            </dl>
+                        </li>
+                        <li>
+                            <span></span>
+                            <dl>
+                                <dt>有几种充值方式？
+                                    <span></span>
+                                </dt>
+                                <dd>A：支持线上充值和线下充值。线下充值需要企业对公转账，时效难以保证；线上充值使用企业网银即可，一般推荐线上充值。</dd>
+                            </dl>
+                        </li>
+                        <li>
+                            <span></span>
+                            <dl>
+                                <dt>账户注册有哪些注意事项？
+                                    <span></span>
+                                </dt>
+                                <dd>A：注册支持手机号或者企业邮箱注册两种方式；注册成功后需要提交三证、法人身份证进行实名认证（代理还需要提供代理资质证明）。如果投放素材涉及特殊行业，还需补充特殊行业相关资质证明。</dd>
+                            </dl>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="XZ">
+                <a target="_blank" href="https://e.hicloud.com/appserver/Instructions/PPS.html">
+                    一键获取PPS推广启程指导书，了解更多PPS资源及服务
+                    <img src="./付费展示平台_files/iconPC.png" alt="">
+                </a>
+            </div>
+        </div>
+    </div>
+    <div class="Cooperation visible-lg visible-md" id="Cooperation">
+        <div class="container">
+            <div class="CooperationH2">推广合作</div>
+            <ul class="clearfix Cooperation-content">
+                <li class="col-md-6 clearfix ZS-box">
+                    <div class="float-left">
+                        <dl>
+                            <dt>
+                                <span class="sm-img1"></span>Name:</dt>
+                            <dd>张珅
+                                <span>(商务经理)</span>
+                            </dd>
+                        </dl>
+                        <dl>
+                            <dt>
+                                <span class="sm-img2"></span>Phone:</dt>
+                            <dd>18651826048</dd>
+                        </dl>
+                        <dl>
+                            <dt>
+                                <span class="sm-img3"></span>Email:</dt>
+                            <dd>
+                                <a href="mailto:zhangshen@huawei.com">zhangshen@huawei.com</a>
+                            </dd>
+                        </dl>
+                    </div>
+                    <div class="float-left ZS_left">
+                        <img src="./付费展示平台_files/wq.png" alt="">
+                        <s>
+                            <img src="./付费展示平台_files/footerIcon_04.png" alt="">
+                        </s>
+                    </div>
+                </li>
+                <li class="col-md-6 clearfix">
+                    <div class="float-left">
+                        <dl>
+                            <dt>
+                                <span class="sm-img1"></span>Name:</dt>
+                            <dd>王谦
+                                <span>(商务经理)</span>
+                            </dd>
+                        </dl>
+                        <dl>
+                            <dt>
+                                <span class="sm-img2"></span>Phone:</dt>
+                            <dd>18924667942</dd>
+                        </dl>
+                        <dl>
+                            <dt>
+                                <span class="sm-img3"></span>Email:</dt>
+                            <dd>
+                                <a href="mailto:leo.wangqian@huawei.com">leo.wangqian@huawei.com</a>
+                            </dd>
+                        </dl>
+                    </div>
+                    <div class="float-left WQ_right">
+                        <img src="./付费展示平台_files/zk.png" alt="">
+                        <s>
+                            <img src="./付费展示平台_files/footerIcon_04.png" alt="">
+                        </s>
+                    </div>
+                </li>
+            </ul>
+            <div class="amf-footer">
+                <div class="af-wrap">
+                    <span class="af-side">
+                        <a href="http://consumer.huawei.com/cn/privacy-policy/index.htm" target="_blank" rel="noopener noreferrer">法律声明</a>
+                        <b> | </b>
+                        <a id="contactus" href="mailto:vipps@huawei.com">隐私保护</a>
+                        <b> | </b>
+                        <a id="contactus" href="https://e.hicloud.com/appserver/html/index.html">联系我们</a>
+                    </span>
+                    <span class="af-address">Copyright ©
+                        <span id="copy_right">2018</span>华为软件技术有限公司&nbsp;版本所有&nbsp;保留一切权利&nbsp;苏B2-20070200号&nbsp;|&nbsp;苏ICP备09062682号-9&nbsp;|&nbsp;隐私政策</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--pad-->
+    <section class="banner visible-sm" id="pad_banner">
+        <nav class="navgation" id="pad_navgation">
+            <div class="navgationContent" id="pad_navgationContent" style="position: fixed; top: 0px; left: 0px; z-index: 999;">
+                <div class="logo left">
+                    <img src="./付费展示平台_files/LOGO.png" alt="">
+                </div>
+            </div>
+        </nav>
+        <div class="bannerContent" id="pad_bannerContent">
+            <div class="bgContent" id="pad_bgContent" style="top: 40%; opacity: 1;">
+                <div class="bg-txt">
+                    <img src="./付费展示平台_files/bannerTXT.png" alt="">
+                </div>
+                <div class="bg-btn">
+                    <a href="https://e.hicloud.com/appserver/html/index.html#pad_openScreen">
+                        <img src="./付费展示平台_files/button.png">
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="login clearfix" id="pad_login">
+            <div class="registered left hidden-sm">
+                <a href="https://e.hicloud.com/appserver/account/register">立即注册</a>
+            </div>
+            <div class="contact left">
+                <a href="https://e.hicloud.com/appserver/html/index.html#pad_problem">联系我们</a>
+            </div>
+            <div class="toTop left" id="pad_toTop">
+                <a href="https://e.hicloud.com/appserver/html/index.html#pad_banner">
+                    <img src="./付费展示平台_files/slide.png" alt="">
+                </a>
+            </div>
+        </div>
+    </section>
+    <section class="mainContent visible-sm" id="pad_mainContent">
+        <div class="openScreen" id="pad_openScreen">
+            <img src="./付费展示平台_files/openScreenBG.png" alt="">
+            <div class="bg-img">
+                <div id="pad_openScreenImg" class="phone-img" style="transform: translateX(6.2%) translateY(-4.2%);">
+                    <img src="./付费展示平台_files/hover.png" alt="">
+                    <div class="Photocopy">
+                        <img class="bgImg1" id="pad_PhotocopyImg1" src="./付费展示平台_files/hoverLeft.png" alt="" style="opacity: 1;">
+                        <img class="bgImg2" id="pad_PhotocopyImg2" src="./付费展示平台_files/hoverRight.png" alt="" style="opacity: 1;">
+                    </div>
+                </div>
+            </div>
+            <div class="bg-txt">
+                <dl>
+                    <dt>
+                        <span></span>开屏展示</dt>
+                    <dd class="clearfix">
+                        <img class="left" src="./付费展示平台_files/openIcon_01.png" alt="">
+                        <span class="left span1">精准定向</span>
+                    </dd>
+                    <dd class="clearfix">
+                        <img class="left" src="./付费展示平台_files/openIcon_02.png" alt="">
+                        <span class="left span2">动、静态全屏展示</span>
+                    </dd>
+                    <dd class="clearfix">
+                        <img class="left" src="./付费展示平台_files/openIcon_03.png" alt="">
+                        <span class="left span3">精致传播品牌知名度</span>
+                    </dd>
+                    <dd class="clearfix">
+                        <img class="left" src="./付费展示平台_files/openIcon_04.png" alt="">
+                        <span class="left span4">覆盖音乐、视频活跃用户</span>
+                    </dd>
+                </dl>
+            </div>
+        </div>
+        <div class="magazine" id="pad_magazine">
+            <img src="./付费展示平台_files/magazineBG.png" alt="">
+            <div class="bg-img">
+                <div class="phone-img" id="pad_magazineImg">
+                    <img src="./付费展示平台_files/magazinePhone.png" alt="">
+                    <span id="pad_magImg" style="bottom: 0px;">
+                        <img src="./付费展示平台_files/magazineSmall.png" alt="">
+                    </span>
+                </div>
+            </div>
+            <div class="bg-txt">
+                <dl>
+                    <dt>
+                        <span></span>杂志锁屏</dt>
+                    <dd class="clearfix">
+                        <img class="left" src="./付费展示平台_files/magazineIcon_01.png" alt="">
+                        <span class="left span1">超1亿日活跃用户</span>
+                    </dd>
+                    <dd class="clearfix">
+                        <img class="left" src="./付费展示平台_files/magazineIcon_02.png" alt="">
+                        <span class="left span2">单日曝光次数超50亿次</span>
+                    </dd>
+                    <dd class="clearfix">
+                        <img class="left" src="./付费展示平台_files/magazineIcon_03.png" alt="">
+                        <span class="left span3">抢占终端第一层入口</span>
+                    </dd>
+                    <dd class="clearfix">
+                        <img class="left" src="./付费展示平台_files/magazineIcon_04.png" alt="">
+                        <span class="left span4">品质提升品牌影响力</span>
+                    </dd>
+                </dl>
+            </div>
+        </div>
+        <div class="information" id="pad_information">
+            <img src="./付费展示平台_files/informationBG.png" alt="">
+            <div class="bg-img">
+                <div class="phone-img">
+                    <img class="bgImg1" src="./付费展示平台_files/informationPhoneBG.png" alt="">
+                    <span id="pad_bgSpan" style="opacity: 1;"></span>
+                    <div class="outBox" id="pad_outBox" style="transform: translateX(1.25rem) translateY(-1.95rem); width: 104%;">
+                        <img class="bgImg2" src="./付费展示平台_files/smart_03.png" alt="">
+                        <div class="inBox">
+                            <img class="boxImg1" id="pad_boxImg1" src="./付费展示平台_files/informationLeft.png" alt="" style="opacity: 1;">
+                            <img class="boxImg2" id="pad_boxImg2" src="./付费展示平台_files/informationbtm.png" alt="" style="opacity: 1;">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="bg-txt">
+                <dl>
+                    <dt>
+                        <span></span>信息流</dt>
+                    <dd class="clearfix">
+                        <img class="left" src="./付费展示平台_files/informationIcon_01.png" alt="">
+                        <span class="left span1">多场景，丰富原生呈现</span>
+                    </dd>
+                    <dd class="clearfix">
+                        <img class="left" src="./付费展示平台_files/informationIcon_02.png" alt="">
+                        <span class="left span2">智能推荐，提升转化</span>
+                    </dd>
+                </dl>
+            </div>
+        </div>
+        <div class="theme" id="pad_theme">
+            <img src="./付费展示平台_files/jiandianBG-pad.png" alt="">
+            <div class="bg-img">
+                <div class="phone-img myPadCarousel swiper-container-horizontal">
+                    <div id="pad_themeImg" class="swiper-wrapper clearfix"><img class="swiper-slide float-right swiper-slide-duplicate swiper-slide-active" src="./付费展示平台_files/jiaodian-pc2.png" alt="" data-swiper-slide-index="1">
+                        <img class="swiper-slide float-left swiper-slide-next" src="./付费展示平台_files/jiaodian-pc1.png" alt="" data-swiper-slide-index="0">
+                        <img class="swiper-slide float-right" src="./付费展示平台_files/jiaodian-pc2.png" alt="" data-swiper-slide-index="1">
+                    <img class="swiper-slide float-left swiper-slide-duplicate" src="./付费展示平台_files/jiaodian-pc1.png" alt="" data-swiper-slide-index="0"></div>
+                </div>
+            </div>
+            <div class="bg-txt">
+                <dl>
+                    <dt>
+                        <span></span>焦点图
+                        <br>banner位</dt>
+                    <dd>
+                        <img src="./付费展示平台_files/jiaodian1.png" alt="">
+                        <span>覆盖华为音乐、视频活跃用户</span>
+                    </dd>
+                    <dd>
+                        <img src="./付费展示平台_files/jiaodian2.png" alt="">
+                        <span>App首页、频道页、播放页全方位覆盖</span>
+                    </dd>
+                    <dd>
+                        <img src="./付费展示平台_files/jiaodian3.png" alt="">
+                        <span>多种展现规格</span>
+                    </dd>
+                    <dd class="ddLast">
+                        <img src="./付费展示平台_files/jiaodian4.png" alt="">
+                        <span class="span4">动静态创意展示</span>
+                    </dd>
+                </dl>
+            </div>
+        </div>
+        <div class="folder" id="pad_folder">
+            <img src="./付费展示平台_files/yunBG-pad.png" alt="">
+            <div class="bg-txt">
+                <dl>
+                    <dt>
+                        <span></span>云文件夹</dt>
+                    <dd class="clearfix">
+                        <img class="left" src="./付费展示平台_files/floderIcon_01.png" alt="">
+                        <span class="left span1">极速桌面分发入口</span>
+                    </dd>
+                    <dd class="clearfix">
+                        <img class="left" src="./付费展示平台_files/floderIcon_02.png" alt="">
+                        <span class="left span2">智慧推荐，动态调整</span>
+                    </dd>
+                    <dd class="clearfix">
+                        <img class="left" src="./付费展示平台_files/floderIcon_03.png" alt="">
+                        <span class="left span3">全球用户可见</span>
+                    </dd>
+                </dl>
+            </div>
+        </div>
+    </section>
+    <section class="case visible-sm" id="pad_case">
+        <div class="caseH2">优秀案例</div>
+        <div class="myCarousel swiper-container-horizontal" id="pad_myCarousel">
+            <ul class="swiper-wrapper clearfix"><li class="swiper-slide left swiper-slide-duplicate swiper-slide-active" data-swiper-slide-index="3">
+                    <div>
+                        <img src="./付费展示平台_files/UA_05.png" alt="">
+                    </div>
+                </li>
+                <li class="swiper-slide left swiper-slide-next" data-swiper-slide-index="0">
+                    <div>
+                        <img src="./付费展示平台_files/smart_05.png" alt="">
+                    </div>
+                </li>
+                <li class="swiper-slide left" data-swiper-slide-index="1">
+                    <div>
+                        <img src="./付费展示平台_files/BMW_05.png" alt="">
+                    </div>
+                </li>
+                <li class="swiper-slide left" data-swiper-slide-index="2">
+                    <div>
+                        <img src="./付费展示平台_files/OFO_05.png" alt="">
+                    </div>
+                </li>
+                <li class="swiper-slide left" data-swiper-slide-index="3">
+                    <div>
+                        <img src="./付费展示平台_files/UA_05.png" alt="">
+                    </div>
+                </li>
+            <li class="swiper-slide left swiper-slide-duplicate" data-swiper-slide-index="0">
+                    <div>
+                        <img src="./付费展示平台_files/smart_05.png" alt="">
+                    </div>
+                </li></ul>
+            <div class="swiper-pagination swiper-pagination-bullets"><span class="swiper-pagination-bullet"></span><span class="swiper-pagination-bullet"></span><span class="swiper-pagination-bullet"></span><span class="swiper-pagination-bullet"></span></div>
+        </div>
+    </section>
+    <section class="brands visible-sm swiper-container-horizontal" id="pad_brands">
+        <ul class="swiper-wrapper clearfix"><li class="swiper-slide left swiper-slide-duplicate swiper-slide-active" data-swiper-slide-index="2">
+                <a href="javascript:;">
+                    <img src="./付费展示平台_files/XC.png">
+                </a>
+            </li><li class="swiper-slide left swiper-slide-duplicate swiper-slide-next" data-swiper-slide-index="3">
+                <a href="javascript:;">
+                    <img src="./付费展示平台_files/ALBB.png">
+                </a>
+            </li><li class="swiper-slide left swiper-slide-duplicate" data-swiper-slide-index="4">
+                <a href="javascript:;">
+                    <img src="./付费展示平台_files/ofoLOGO.png">
+                </a>
+            </li>
+            <li class="swiper-slide left" data-swiper-slide-index="0">
+                <a href="javascript:;">
+                    <img src="./付费展示平台_files/MT.png">
+                </a>
+            </li>
+            <li class="swiper-slide left" data-swiper-slide-index="1">
+                <a href="javascript:;">
+                    <img src="./付费展示平台_files/KFC.png">
+                </a>
+            </li>
+            <li class="swiper-slide left" data-swiper-slide-index="2">
+                <a href="javascript:;">
+                    <img src="./付费展示平台_files/XC.png">
+                </a>
+            </li>
+            <li class="swiper-slide left" data-swiper-slide-index="3">
+                <a href="javascript:;">
+                    <img src="./付费展示平台_files/ALBB.png">
+                </a>
+            </li>
+            <li class="swiper-slide left" data-swiper-slide-index="4">
+                <a href="javascript:;">
+                    <img src="./付费展示平台_files/ofoLOGO.png">
+                </a>
+            </li>
+        <li class="swiper-slide left swiper-slide-duplicate" data-swiper-slide-index="0">
+                <a href="javascript:;">
+                    <img src="./付费展示平台_files/MT.png">
+                </a>
+            </li><li class="swiper-slide left swiper-slide-duplicate" data-swiper-slide-index="1">
+                <a href="javascript:;">
+                    <img src="./付费展示平台_files/KFC.png">
+                </a>
+            </li><li class="swiper-slide left swiper-slide-duplicate" data-swiper-slide-index="2">
+                <a href="javascript:;">
+                    <img src="./付费展示平台_files/XC.png">
+                </a>
+            </li></ul>
+    </section>
+    <section class="problem visible-sm" id="pad_problem">
+        <div class="problemH2">常见问题</div>
+        <div class="problemContent" id="pad_problemContent">
+            <dl>
+                <dt>Q：目前开放哪些媒体和版位？
+                    <span></span>
+                </dt>
+                <dd>A：华为PPS目前支持开屏展示、云文件夹投放；信息流、焦点图等版位即将开放，敬请关注。</dd>
+            </dl>
+            <dl>
+                <dt>Q：开屏展示支持的媒体有哪些？收费方式？
+                    <span></span>
+                </dt>
+                <dd>A：目前开屏展示支持华为音乐、华为视频、视频优酷、华为阅读、荣耀阅读5个原生APP。以CPT计费，刊例价100万元/天，具体合作请联系商务同学。</dd>
+            </dl>
+            <dl>
+                <dt>Q：是否支持个人客户投放？
+                    <span></span>
+                </dt>
+                <dd>A：目前华为PPS合作范围仅支持企业客户，暂不支持个人客户投放。</dd>
+            </dl>
+            <dl>
+                <dt>Q：账户注册有哪些注意事项？
+                    <span></span>
+                </dt>
+                <dd>
+                    A：注册支持手机号或者企业邮箱注册两种方式；注册成功后需要提交三证、法人身份证进行实名认证（代理还需要提供代理资质证明）。如果投放素材涉及特殊行业，还需补充特殊行业相关资质证明。
+                </dd>
+            </dl>
+            <dl>
+                <dt>Q：有几种充值方式？
+                    <span></span>
+                </dt>
+                <dd>A：支持线上充值和线下充值。线下充值需要企业对公转账，时效难以保证；线上充值使用企业网银即可，一般推荐线上充值。</dd>
+            </dl>
+            <dl>
+                <dt>Q：广告审核周期一般是多久？
+                    <span></span>
+                </dt>
+                <dd>A：开屏展示的审核周期为3个工作日，建议尽早提交素材进行视觉预审。</dd>
+            </dl>
+        </div>
+    </section>
+    <section class="cooperation visible-sm" id="pad_cooperation">
+        <div class="cooperationH2">推广合作</div>
+        <ul class="clearfix Cooperation-content">
+            <li class="cooperationli1">
+                <span>
+                    <img src="./付费展示平台_files/name.png" alt="">
+                </span>Name：
+                <strong>张珅</strong>
+                <i>(商务经理)</i>
+            </li>
+            <li class="cooperationli2">
+                <span>
+                    <img src="./付费展示平台_files/phone.png" alt="">
+                </span>Phone：
+                <a href="tel:18651826048">18651826048</a>
+            </li>
+            <li class="cooperationli3">
+                <span>
+                    <img src="./付费展示平台_files/email.png" alt="">
+                </span>Email：
+                <a href="mailto:zhangshen@huawei.com">zhangshen@huawei.com</a>
+            </li>
+            <li class="cooperationli4">
+                <span>
+                    <img src="./付费展示平台_files/QQ.png" alt="">
+                </span>Wechat/QQ：137222697</li>
+        </ul>
+    </section>
+
+    <!--phone-->
+    <section class="banner visible-xs" id="phone_banner">
+        <!-- 导航 -->
+        <nav class="navgation" id="phone_navgation">
+            <div class="navgationContent" id="phone_navgationContent" style="position: fixed; top: 0px; left: 0px; z-index: 999;">
+                <div class="logo left">
+                    <img src="./付费展示平台_files/LOGO.png" alt="">
+                </div>
+            </div>
+        </nav>
+        <!-- 大banner -->
+        <div class="bannerContent" id="phone_bannerContent">
+            <div class="bg-img">
+                <img src="./付费展示平台_files/bannerBG.png" alt="">
+            </div>
+            <div class="bgContent" id="phone_bgContent" style="top: 41%; opacity: 1;">
+                <div class="bg-txt">
+                    <img src="./付费展示平台_files/bannerTXT.png" alt="">
+                </div>
+                <div class="bg-btn">
+                    <a href="https://e.hicloud.com/appserver/html/index.html#phone_openScreen">
+                        <img src="./付费展示平台_files/button.png">
+                    </a>
+                </div>
+            </div>
+        </div>
+        <!-- 登录注册 -->
+        <div class="login clearfix" id="phone_login">
+            <div class="registered left hidden-xs">
+                <a href="javascript:;">立即注册</a>
+            </div>
+            <div class="contact left">
+                <a href="https://e.hicloud.com/appserver/html/index.html#phone_problem">联系我们</a>
+            </div>
+            <div class="toTop left" id="phone_toTop">
+                <a href="https://e.hicloud.com/appserver/html/index.html#phone_banner">
+                    <img src="./付费展示平台_files/slide.png" alt="">
+                </a>
+            </div>
+        </div>
+    </section>
+    <section class="mainContent visible-xs" id="phone_mainContent">
+        <!-- 开屏展示 -->
+        <div class="openScreen" id="phone_openScreen">
+            <div class="bg-img">
+                <img src="./付费展示平台_files/openScreenBG.png" alt="">
+                <div id="phone_openScreenImg" class="phone-img" style="transform: translateX(7.2%) translateY(-5.61%);">
+                    <img src="./付费展示平台_files/hover.png" alt="">
+                    <div class="Photocopy">
+                        <img class="bgImg1" id="phone_PhotocopyImg1" src="./付费展示平台_files/hoverLeft.png" alt="" style="opacity: 1;">
+                        <img class="bgImg2" id="phone_PhotocopyImg2" src="./付费展示平台_files/hoverRight.png" alt="" style="opacity: 1;">
+                    </div>
+                </div>
+            </div>
+            <div class="bg-txt">
+                <dl>
+                    <dt>
+                        <span></span>开屏展示</dt>
+                    <dd>
+                        <img src="./付费展示平台_files/openIcon_01.png" alt="">
+                        <span class="span1">精准定向</span>
+                    </dd>
+                    <dd>
+                        <img src="./付费展示平台_files/openIcon_02.png" alt="">
+                        <span class="span2">动、静态全屏展示</span>
+                    </dd>
+                    <dd>
+                        <img src="./付费展示平台_files/openIcon_03.png" alt="">
+                        <span class="span3">精致传播品牌知名度</span>
+                    </dd>
+                    <dd>
+                        <img src="./付费展示平台_files/openIcon_04.png" alt="">
+                        <span class="span4">覆盖音乐、视频活跃用户</span>
+                    </dd>
+                </dl>
+            </div>
+        </div>
+        <!-- 杂志锁屏 -->
+        <div class="magazine" id="phone_magazine">
+            <div class="bg-img">
+                <img src="./付费展示平台_files/magazineBG.png" alt="">
+                <div class="phone-img" id="phone_magazineImg">
+                    <img src="./付费展示平台_files/magazinePhone.png" alt="">
+                    <span id="phone_magImg" style="bottom: 0px;">
+                        <img src="./付费展示平台_files/magazineSmall.png" alt="">
+                    </span>
+                </div>
+            </div>
+            <div class="bg-txt">
+                <dl>
+                    <dt>
+                        <span></span>杂志锁屏</dt>
+                    <dd>
+                        <img src="./付费展示平台_files/magazineIcon_01.png" alt="">
+                        <span class="span1">超1亿日活跃用户</span>
+                    </dd>
+                    <dd>
+                        <img src="./付费展示平台_files/magazineIcon_02.png" alt="">
+                        <span class="span2">单日曝光次数超50亿次</span>
+                    </dd>
+                    <dd>
+                        <img src="./付费展示平台_files/magazineIcon_03.png" alt="">
+                        <span class="span3">抢占终端第一层入口</span>
+                    </dd>
+                    <dd>
+                        <img src="./付费展示平台_files/magazineIcon_04.png" alt="">
+                        <span class="span4">品质提升品牌影响力</span>
+                    </dd>
+                </dl>
+            </div>
+        </div>
+        <!-- 信息流 -->
+        <div class="information" id="phone_information">
+            <div class="bg-img">
+                <img src="./付费展示平台_files/informationBG.png" alt="">
+                <div class="phone-img">
+                    <img class="bgImg1" src="./付费展示平台_files/informationPhoneBG.png" alt="">
+                    <span id="phone_bgSpan" style="opacity: 1;"></span>
+                    <div class="outBox" id="phone_outBox" style="transform: translateX(0.6rem) translateY(-0.85rem); width: 104%;">
+                        <img class="bgImg2" src="./付费展示平台_files/smart_03.png" alt="">
+                        <div class="inBox">
+                            <img class="boxImg1" id="phone_boxImg1" src="./付费展示平台_files/informationLeft.png" alt="" style="opacity: 1;">
+                            <img class="boxImg2" id="phone_boxImg2" src="./付费展示平台_files/informationbtm.png" alt="" style="opacity: 1;">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="bg-txt">
+                <dl>
+                    <dt>
+                        <span></span>信息流</dt>
+                    <dd class="clearfix">
+                        <img class="left" src="./付费展示平台_files/informationIcon_01.png" alt="">
+                        <span class="left span1">多场景，丰富原生呈现</span>
+                    </dd>
+                    <dd class="clearfix">
+                        <img class="left" src="./付费展示平台_files/informationIcon_02.png" alt="">
+                        <span class="left span2">智能推荐，提升转化</span>
+                    </dd>
+                </dl>
+            </div>
+        </div>
+        <!-- 定制主题 -->
+        <div class="theme" id="phone_theme">
+            <div class="bg-img">
+                <img src="./付费展示平台_files/jiandianbannerBg-phone.png" alt="">
+                <div class="phone-img myPadCarousel swiper-container-horizontal">
+                    <div id="phone_themeImg" class="clearfix swiper-wrapper"><img class="swiper-slide float-right swiper-slide-duplicate swiper-slide-active" src="./付费展示平台_files/jiaodian-pc2.png" alt="" data-swiper-slide-index="1">
+                        <img class="swiper-slide float-left swiper-slide-next" src="./付费展示平台_files/jiaodian-pc1.png" alt="" data-swiper-slide-index="0">
+                        <img class="swiper-slide float-right" src="./付费展示平台_files/jiaodian-pc2.png" alt="" data-swiper-slide-index="1">
+                    <img class="swiper-slide float-left swiper-slide-duplicate" src="./付费展示平台_files/jiaodian-pc1.png" alt="" data-swiper-slide-index="0"></div>
+                </div>
+            </div>
+            <div class="bg-txt">
+                <dl>
+                    <dt>
+                        <span></span>焦点图
+                        <br>banner位</dt>
+                    <dd>
+                        <img src="./付费展示平台_files/jiaodian1.png" alt="">
+                        <span>覆盖华为音乐、视频活跃用户</span>
+                    </dd>
+                    <dd>
+                        <img src="./付费展示平台_files/jiaodian2.png" alt="">
+                        <span>App首页、频道页、播放页全方位覆盖</span>
+                    </dd>
+                    <dd>
+                        <img src="./付费展示平台_files/jiaodian3.png" alt="">
+                        <span>多种展现规格</span>
+                    </dd>
+                    <dd class="ddLast">
+                        <img src="./付费展示平台_files/jiaodian4.png" alt="">
+                        <span class="span4">动静态创意展示</span>
+                    </dd>
+                </dl>
+            </div>
+        </div>
+        <!-- 云文件夹 -->
+        <div class="folder" id="phone_folder">
+            <div class="bg-img">
+                <img src="./付费展示平台_files/yunBG-phone.png" alt="">
+            </div>
+            <div class="bg-txt">
+                <dl>
+                    <dt>
+                        <span></span>云文件夹</dt>
+                    <dd>
+                        <img src="./付费展示平台_files/floderIcon_01.png" alt="">
+                        <span class="span1">极速桌面分发入口</span>
+                    </dd>
+                    <dd>
+                        <img src="./付费展示平台_files/floderIcon_02.png" alt="">
+                        <span class="span2">智慧推荐，动态调整</span>
+                    </dd>
+                    <dd>
+                        <img src="./付费展示平台_files/floderIcon_03.png" alt="">
+                        <span class="span3">全球用户可见</span>
+                    </dd>
+                </dl>
+            </div>
+        </div>
+    </section>
+    <section class="case visible-xs" id="phone_case">
+        <div class="caseH2">优秀案例</div>
+        <div id="phone_myCarousel" class="myCarousel swiper-container-horizontal">
+            <ul class="swiper-wrapper clearfix"><li class="swiper-slide left swiper-slide-duplicate swiper-slide-active" data-swiper-slide-index="3">
+                    <div>
+                        <img src="./付费展示平台_files/UA_05.png" alt="">
+                    </div>
+                </li>
+                <li class="swiper-slide left swiper-slide-next" data-swiper-slide-index="0">
+                    <div>
+                        <img src="./付费展示平台_files/smart_05.png" alt="">
+                    </div>
+                </li>
+                <li class="swiper-slide left" data-swiper-slide-index="1">
+                    <div>
+                        <img src="./付费展示平台_files/BMW_05.png" alt="">
+                    </div>
+                </li>
+                <li class="swiper-slide left" data-swiper-slide-index="2">
+                    <div>
+                        <img src="./付费展示平台_files/OFO_05.png" alt="">
+                    </div>
+                </li>
+                <li class="swiper-slide left" data-swiper-slide-index="3">
+                    <div>
+                        <img src="./付费展示平台_files/UA_05.png" alt="">
+                    </div>
+                </li>
+            <li class="swiper-slide left swiper-slide-duplicate" data-swiper-slide-index="0">
+                    <div>
+                        <img src="./付费展示平台_files/smart_05.png" alt="">
+                    </div>
+                </li></ul>
+            <div class="swiper-pagination swiper-pagination-bullets"><span class="swiper-pagination-bullet"></span><span class="swiper-pagination-bullet"></span><span class="swiper-pagination-bullet"></span><span class="swiper-pagination-bullet"></span></div>
+        </div>
+    </section>
+    <section class="brands visible-xs swiper-container-horizontal" id="phone_brands">
+        <ul class="swiper-wrapper clearfix"><li class="swiper-slide left swiper-slide-duplicate swiper-slide-active" data-swiper-slide-index="2">
+                <a href="javascript:;">
+                    <img src="./付费展示平台_files/XC.png">
+                </a>
+            </li><li class="swiper-slide left swiper-slide-duplicate swiper-slide-next" data-swiper-slide-index="3">
+                <a href="javascript:;">
+                    <img src="./付费展示平台_files/ALBB.png">
+                </a>
+            </li><li class="swiper-slide left swiper-slide-duplicate" data-swiper-slide-index="4">
+                <a href="javascript:;">
+                    <img src="./付费展示平台_files/ofoLOGO.png">
+                </a>
+            </li>
+            <li class="swiper-slide left" data-swiper-slide-index="0">
+                <a href="javascript:;">
+                    <img src="./付费展示平台_files/MT.png">
+                </a>
+            </li>
+            <li class="swiper-slide left" data-swiper-slide-index="1">
+                <a href="javascript:;">
+                    <img src="./付费展示平台_files/KFC.png">
+                </a>
+            </li>
+            <li class="swiper-slide left" data-swiper-slide-index="2">
+                <a href="javascript:;">
+                    <img src="./付费展示平台_files/XC.png">
+                </a>
+            </li>
+            <li class="swiper-slide left" data-swiper-slide-index="3">
+                <a href="javascript:;">
+                    <img src="./付费展示平台_files/ALBB.png">
+                </a>
+            </li>
+            <li class="swiper-slide left" data-swiper-slide-index="4">
+                <a href="javascript:;">
+                    <img src="./付费展示平台_files/ofoLOGO.png">
+                </a>
+            </li>
+        <li class="swiper-slide left swiper-slide-duplicate" data-swiper-slide-index="0">
+                <a href="javascript:;">
+                    <img src="./付费展示平台_files/MT.png">
+                </a>
+            </li><li class="swiper-slide left swiper-slide-duplicate" data-swiper-slide-index="1">
+                <a href="javascript:;">
+                    <img src="./付费展示平台_files/KFC.png">
+                </a>
+            </li><li class="swiper-slide left swiper-slide-duplicate" data-swiper-slide-index="2">
+                <a href="javascript:;">
+                    <img src="./付费展示平台_files/XC.png">
+                </a>
+            </li></ul>
+    </section>
+    <section class="problem visible-xs" id="phone_problem">
+        <div class="problemH2">常见问题</div>
+        <div class="problemContent" id="phone_problemContent">
+            <dl>
+                <dt>Q：目前开放哪些媒体和版位？
+                    <span></span>
+                </dt>
+                <dd>A：华为PPS目前支持开屏展示、云文件夹投放；信息流、焦点图等版位即将开放，敬请关注。</dd>
+            </dl>
+            <dl>
+                <dt>Q：开屏展示支持的媒体有哪些？收费方式？
+                    <span></span>
+                </dt>
+                <dd>A：目前开屏展示支持华为音乐、华为视频、视频优酷、华为阅读、荣耀阅读5个原生APP。以CPT计费，刊例价100万元/天，具体合作请联系商务同学。</dd>
+            </dl>
+            <dl>
+                <dt>Q：是否支持个人客户投放？
+                    <span></span>
+                </dt>
+                <dd>A：目前华为PPS合作范围仅支持企业客户，暂不支持个人客户投放。</dd>
+            </dl>
+            <dl>
+                <dt>Q：账户注册有哪些注意事项？
+                    <span></span>
+                </dt>
+                <dd>
+                    A：注册支持手机号或者企业邮箱注册两种方式；注册成功后需要提交三证、法人身份证进行实名认证（代理还需要提供代理资质证明）。如果投放素材涉及特殊行业，还需补充特殊行业相关资质证明。
+                </dd>
+            </dl>
+            <dl>
+                <dt>Q：有几种充值方式？
+                    <span></span>
+                </dt>
+                <dd>A：支持线上充值和线下充值。线下充值需要企业对公转账，时效难以保证；线上充值使用企业网银即可，一般推荐线上充值。</dd>
+            </dl>
+            <dl>
+                <dt>Q：广告审核周期一般是多久？
+                    <span></span>
+                </dt>
+                <dd>A：开屏展示的审核周期为3个工作日，建议尽早提交素材进行视觉预审。</dd>
+            </dl>
+        </div>
+    </section>
+    <section class="cooperation visible-xs" id="phone_cooperation">
+        <div class="cooperationH2">推广合作</div>
+        <ul class="clearfix Cooperation-content">
+            <li class="cooperationli1">
+                <span>
+                    <img src="./付费展示平台_files/name.png" alt="">
+                </span>Name：
+                <strong>张珅</strong>
+                <i>(商务经理)</i>
+            </li>
+            <li class="cooperationli2">
+                <span>
+                    <img src="./付费展示平台_files/phone.png" alt="">
+                </span>Phone：
+                <a href="tel:18651826048">18651826048</a>
+            </li>
+            <li class="cooperationli3">
+                <span>
+                    <img src="./付费展示平台_files/email.png" alt="">
+                </span>Email：
+                <a href="mailto:zhangshen@huawei.com">zhangshen@huawei.com</a>
+            </li>
+            <li class="cooperationli4">
+                <span>
+                    <img src="./付费展示平台_files/QQ.png" alt="">
+                </span>Wechat/QQ：137222697</li>
+        </ul>
+    </section>
+
+    <script type="text/javascript" src="./付费展示平台_files/zepto.min.js.下载"></script>
+    <script type="text/javascript" src="./付费展示平台_files/swiper.min.js.下载"></script>
+    <script type="text/javascript" src="./付费展示平台_files/amf.js.下载"></script>
+    <script type="text/javascript">
+        setTimeout(function () {
+            document.getElementById("copy_right").innerHTML = new Date().getFullYear();
+        }, 200);
+    </script>
+
+
+</body></html>
